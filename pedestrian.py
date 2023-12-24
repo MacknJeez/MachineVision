@@ -1,14 +1,7 @@
 
-# __Author: Vikas Hanasoge Nataraja__
-# 
-# __Email: viha4393@colorado.edu__
-
-# In[ ]:
-
-
 import sys
-# using this because OpenCV is installed in a different directory in my computer
-sys.path.append('C:/ProgramData/Anaconda3/Lib/site-packages')
+
+sys.path.append('C:wherever your OpenCV is located')
 import cv2
 import numpy as np
 from imutils.object_detection import non_max_suppression
