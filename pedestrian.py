@@ -101,7 +101,7 @@ class pedestrianTracking():
 
 def main():
     # read the video
-    readVideo = cv2.VideoCapture("testvideo.mov")
+    readVideo = cv2.VideoCapture("ADD NAME OF FILE YOU WANT TO USE")
 
 
     cv2.namedWindow("Pedestrian Detection")
